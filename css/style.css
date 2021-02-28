@@ -1,0 +1,17 @@
+#gallery {
+  display: flex;
+}
+
+.gallery-item {
+  list-style: none;
+}
+
+.gallery-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.gallery-img {
+  display: block;
+  width: 320px;
+  height: auto;
+}
